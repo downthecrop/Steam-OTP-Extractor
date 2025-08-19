@@ -19,14 +19,6 @@ set -euo pipefail
 #   • inside: ./steam_guard_extractor_work/
 # The script will loop until it detects the APK (no full path required).
 #
-# Free OTP
-# - Add Token
-# - Issuer: Steam
-# - Account: YOUR_USERNAME
-# - Secret: YOUR_SECRET
-# - Type: TOPT
-# - Digits: 5
-#
 # Sensitive: your secret is like a password; keep it private.
 
 bold()   { printf "\033[1m%s\033[0m\n" "$*"; }
