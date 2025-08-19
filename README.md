@@ -1,4 +1,4 @@
-# Steam Guard Extractor (macOS)
+# Steam Guard Extractor
 
 **Status:** Verified working on **19 Aug 2025**
 
@@ -16,13 +16,29 @@ A dead-simple, user-friendly CLI that extracts your **Steam Guard** secret from 
 
 ---
 
-## Quick start (macOS)
+## One-line run (no git clone)
+
+Each command downloads the raw script locally (so relative paths work) and runs it.
+
+**macOS**
 
 ```bash
-# 1) Get the script into an empty folder, then:
-chmod +x steam-guard-extractor-macos.sh
-./steam-guard-extractor-macos.sh
+curl -fsSL https://raw.githubusercontent.com/downthecrop/Steam-OTP-Extractor/main/steam-guard-extractor-macos.sh -o steam-guard-extractor-macos.sh && chmod +x steam-guard-extractor-macos.sh && ./steam-guard-extractor-macos.sh
 ```
+
+**Linux**
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/downthecrop/Steam-OTP-Extractor/main/steam-guard-extractor-linux.sh -o steam-guard-extractor-linux.sh && chmod +x steam-guard-extractor-linux.sh && ./steam-guard-extractor-linux.sh
+```
+
+**Windows (PowerShell)**
+
+```powershell
+$u="https://raw.githubusercontent.com/downthecrop/Steam-OTP-Extractor/main/steam-guard-extractor-windows.ps1"; $p="$env:TEMP\steam-guard-extractor-windows.ps1"; Invoke-WebRequest $u -OutFile $p -UseBasicParsing; powershell -ExecutionPolicy Bypass -File $p
+```
+
+---
 
 During the run, the script will ask you to place the legacy APK:
 
