@@ -132,7 +132,6 @@ You can always re-run the script later to recreate the environment.
 
 ## Compatibility notes
 
-- macOS on **Intel** and **Apple Silicon** are both supported (script auto-detects and fetches the correct JRE).
 - Most OTP apps accept either the `steam://<SECRET>` form or the `otpauth://` form; if your app refuses 5-digit tokens, pick one that supports them (e.g., FreeOTP+, Aegis, Bitwarden with Steam support, etc.).
 
 ---
