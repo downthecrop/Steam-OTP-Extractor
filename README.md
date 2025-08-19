@@ -1,8 +1,8 @@
 # Steam Guard Extractor (macOS)
 
-**Status:** Verified working on **19 Aug 2025** (America/Vancouver).
+**Status:** Verified working on **19 Aug 2025**
 
-A dead-simple, grandma-friendly CLI that extracts your **Steam Guard** secret from an Android backup using a temporary legacy Steam APK. It:
+A dead-simple, user-friendly CLI that extracts your **Steam Guard** secret from an Android backup using a temporary legacy Steam APK. It:
 
 - Downloads a portable **Temurin JRE 11** (local to the working folder).
 - Downloads **Android Platform-Tools** (ADB) from Google.
